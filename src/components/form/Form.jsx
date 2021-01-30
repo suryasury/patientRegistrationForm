@@ -127,7 +127,7 @@ class PatientForm extends Component {
                                     Age: <textarea defaultValue={this.state.age} readOnly />
                                 </div>
                             </div>
-                            {this.state.invalidDob && <h3>Invalid Date of birth</h3>}
+                            {this.state.invalidDob && <div className='warning'><h3>Invalid Date of birth</h3></div>}
                             {this.state.notValidAge ? (<div>
                                 <div className='warning'>
                                     <h3>Your age is less than 18. Please enter below details</h3>
