@@ -1,0 +1,146 @@
+.form{
+    width: 95%;
+    height: 950px;
+    background-color: rgb(237, 248, 248);
+    margin: 70px 0px 0px 37px;
+}
+.heading{
+    padding-top: 30px;
+    font-weight: lighter;
+}
+
+.formsets .name{
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.pname{
+margin-right: 20px;
+margin-left: 19px;
+width: 21%;
+height: 35px;
+border-radius: 3px;
+border: 2px solid rgb(247, 81, 81);
+outline: none;
+}
+
+.address{
+    margin-top: 10px;
+}
+.address textarea{
+    width: 44%;
+height: 45px;
+border-radius: 3px;
+border: 2px solid rgb(247, 81, 81);
+outline: none;
+}
+
+.dropdown{
+    margin-top: 25px;
+}
+.dropdown select{
+    margin-right: 20px;
+margin-left: 19px;
+width: 20.8%;
+height: 35px;
+border-radius: 3px;
+border: 2px solid rgb(247, 81, 81);
+outline: none;
+}
+
+.pin-phone{
+    margin-top: 30px;
+}
+.pin-phone .pin{
+    margin-right: 20px;
+margin-left: 19px;
+width: 20.2%;
+height: 35px;
+border-radius: 3px;
+border: 2px solid rgb(247, 81, 81);
+outline: none;
+}
+
+.dob{
+    margin-top: 30px;
+    position: relative;
+    left: 33px;
+}
+.dob .dobfield{
+    margin-right: 20px;
+margin-left: 10px;
+width: 20%;
+height: 35px;
+border-radius: 3px;
+border: 2px solid rgb(247, 81, 81);
+outline: none;
+}
+
+.dob .age{
+    display: inline-flex;
+    align-items: center;
+}
+
+.dob .age textarea{
+    width: 35%;
+    height: 30px;
+    border: 2px solid rgb(247, 81, 81);
+    margin: 10px;
+    outline: none;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.warning{
+    border: 2px solid rgb(247, 81, 81);
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    align-items: center;
+    position: relative;
+    left: 470px;
+    margin: 20px;
+}
+.warning h3{
+    text-align: center;
+    font-size: small;
+    font-weight: lighter;
+}
+
+.radio-button{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 450px;
+}
+.radio-button .gender{
+    margin: 0px 20px;
+}
+.radio-button .gender .genderOption{
+    margin: 0px 10px;
+}
+.radio-button .martial{
+    margin: 0px 20px;
+}
+.radio-button .martial .martialOption{
+    margin: 0px 10px;
+}
+
+.button{
+    position: absolute;
+    bottom: 0px;
+    top: 930px;
+    left: 380px;
+    width: 50%;
+}
+
+.button button{
+    width: 10%;
+    height: 40px;
+    border-radius: 3px;
+    background-color: green;
+    color: white;
+    box-shadow: none;
+    cursor: pointer;
+}
